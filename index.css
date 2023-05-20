@@ -1,0 +1,240 @@
+
+/*premiere partie */
+
+body{
+background-color: black;
+}
+
+.header {
+   background-image:url("Illustrations/Bathome1.png");
+   height: 200%;
+   width: auto;
+}
+.home {
+   color: white;
+   display: inline;
+   font-size: 140%;
+   
+}
+.logohome{
+   margin-top: 5%;
+   margin-left: 11%;
+}
+.home{
+   margin-left: 65%;
+}
+hr{
+   margin-top: 5%;
+   opacity: 0.2;
+}
+.text1{
+   color: white;
+   font-size: 130%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+   color: white;
+}
+
+.milieu{
+   text-align: center;
+   margin-top: 17%;
+   width: 35%;
+   margin-left: 35%;
+}
+
+.btn_1 {
+   width: 200px;
+   height: 47px;
+   background-color: rgba(240, 248, 255, 0.212);
+   border-color: rgba(252, 175, 175, 0.027);
+   color: white;
+}
+
+.btn_1:hover{
+   background-color: rgba(240, 248, 255, 0.479);
+   transition: .2s;
+   cursor: pointer;
+}
+
+.right{
+   margin-left: 89%;
+   margin-top: -17%;
+   
+}
+.fleche{
+   width: 76px;
+   height: auto;
+}
+
+.logo{
+   width: 20px;
+   height: auto;
+   margin-left: 19%;
+}
+
+.flecheDown{
+   width: 60px;
+   height: auto;
+   margin-top: 15%;
+   margin-left: 50%;
+}
+
+/*deuxieme partie */
+ .contain1{
+   background-color: black;
+   margin-top: 10%;
+   width: 80%;
+   height: auto;
+   margin-left: 15%;
+ }
+
+ .text2{
+   color: white;
+   font-size: 130%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 75%;
+   height:auto;
+}
+
+/*
+.second1{
+   margin-top: 5%;
+}
+
+.bat{
+   width: 260px;
+   height: auto;
+}
+
+.text3{
+   color: white;
+}
+
+.sstittre1{
+   display: inline;
+}
+*/
+
+h4{
+   color: white;
+}
+
+.sary{
+   width: 260px;
+   height: auto;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   margin-top: 5%;   
+}
+
+.card{
+   text-align: center;
+}
+
+.imgBx:hover img{
+   transform: scale(1.1);
+}
+
+
+/*troisième partie */
+
+.contain2{
+   background-color: black;
+   margin-top: 12%;
+   width: 80%;
+   height: auto;
+   margin-left: 15%;
+ }
+
+ .bat{
+   width: 100px;
+   height: 100px;
+   margin-top: -15%;
+   margin-bottom: 3%;
+   margin-left: 7%;
+
+ }
+
+.imgRight{
+   width: 390px;
+   height: auto;
+   margin-left: 70%;
+   margin-top: -12%;
+ 
+}
+
+/*quatrieme partie */
+
+.contain3{
+   background-color: black;
+   margin-top: -5%;
+   width: 80%;
+   height: auto;
+   margin-left: 15%;
+ }
+
+ .contain4{
+   background-color: black;
+   width: 80%;
+   height: auto;
+   margin-left: 15%;
+   margin-top: 5%;
+   margin-bottom: 6%;
+ }
+
+/*cinquieme partie */
+
+ .justiceLeague{
+      width: 1340px;
+      height: auto;
+ }
+
+ /*sixieme partie */
+ .contenu{
+   display: flex;
+   align-items: center;    
+   margin-top: 7%;
+   width: 70%;
+    
+ }
+
+ .text3{
+   color: white;
+   
+ }
+
+ .miContenu2{
+   display: flex;
+   align-items: center;
+   margin-left: 8%;
+   
+ }
+
+ .mimicontenuX{
+   background-color: rgb(49, 61, 57);
+   width: 100%;
+   height: 0%;
+   padding-left: 2%;
+   padding-right: 1%;
+   
+ }
+
+ h3{
+   color: white;
+ }
+
+ .picmultimedia{
+   height: 300px;
+ }
+
+ .picvideo{
+   width:800px;
+   height: auto;
+   margin-left: 18%;
+ }
+
+ 
