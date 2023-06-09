@@ -5,6 +5,10 @@ body{
 background-color: black;
 }
 
+h1{
+   color: white;
+}
+
 .header {
    background-image:url("Illustrations/Bathome1.png");
    height: 200%;
@@ -238,3 +242,18 @@ h4{
  }
 
  
+ 
+ /*formulaire */
+
+ .checkbox{
+   color: white;
+ }
+
+ .bouton{
+   display: flex;
+ }
+
+ /*footer*/
+ .foot{
+   color: white;
+ }
