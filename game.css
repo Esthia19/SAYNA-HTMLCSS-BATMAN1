@@ -1,0 +1,150 @@
+p{
+    color: white;
+ }
+ 
+ body{
+ background-color: black;
+ }
+ 
+ h1{
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+ }
+ 
+ .header {
+    background-image:url("Illustrations/Batgame_1.png");
+    height: 130%;
+    width: auto;
+ }
+ .menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+ }
+ 
+ .menu li {
+    list-style-type: none ;       /* Suppression des puces */
+ }
+ 
+ .menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+    color: white;
+    font-size: 130%;
+    
+ }
+ .navbar{
+    margin-left: 80%;
+     margin-top: -4%;
+ }
+ 
+ .logohome{
+    margin-top: 5%;
+    margin-left: 11%;
+ }
+ hr{
+    margin-top: 5%;
+    opacity: 0.2;
+ }
+
+ 
+ h2{
+    color: white;
+    font-size: 38px;
+ }
+ 
+ .milieu{
+    display: flex;
+ }
+ .gauche{
+    margin-top: 17%;
+    margin-left: 9%;
+    
+ }
+ 
+ 
+ .droite{
+    margin-top: 17%;
+    margin-left: 60%;
+    
+ }
+ .rs{
+    margin-left: 40%;
+ }
+
+ 
+ /*
+ .imgRight{
+ margin-top: 100%;
+ }
+ */
+ 
+ .fleche{
+    width: 76px;
+    height: auto;
+ }
+ 
+ .logo{
+    width: 20px;
+    height: auto;
+    margin-left: 19%;
+ }
+ 
+ .flecheDown{
+    width: 60px;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 50%;
+ }
+ 
+ .flecheBas{
+    margin-left: 50%;
+    padding-top: 17%;
+ }
+
+
+
+ /* SECOND PARTI */
+.second{
+    margin-top: 20%;
+    
+}
+
+.title{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.batgame2{
+    margin-left: 15%;
+}
+
+.Quiz1{
+    margin-top: 8%;
+    width: 300px;
+    height: 65px;
+    font-size: 18px;
+    margin-left:40%;
+    background: linear-gradient(to right,#c7c2b9,#bd5d03);
+    border: none;
+    color: white;
+}
+/*footer*/ 
+
+footer{
+    padding-bottom: 12%;
+  }
+  .type{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 17%;
+    font-size: 14px;
+  }
+  .wb{
+    height: 28px;
+    margin-top: 0.7%;
+  }
+  .iconFoot{
+    margin-left: 40%;
+  }

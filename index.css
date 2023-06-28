@@ -1,12 +1,16 @@
 
 /*premiere partie */
-
+p{
+   color: white;
+}
 body{
 background-color: black;
 }
 
 h1{
    color: white;
+   text-align: center;
+   padding-top: 4%;
 }
 
 .header {
@@ -14,23 +18,41 @@ h1{
    height: 200%;
    width: auto;
 }
-.home {
+.menu {
+   display: flex;              /* Transformation en flexbox */
+   padding:0;                  /* Suppression des marges internes */
+}
+
+.menu li {
+   list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+   display:block;                /* Transformation en block */
+   min-width: 120px;             /* Largeur minimale des liens */
    color: white;
-   display: inline;
-   font-size: 140%;
+   font-size: 130%;
    
 }
+.navbar{
+   margin-left: 80%;
+    margin-top: -4%;
+}
+
 .logohome{
    margin-top: 5%;
    margin-left: 11%;
 }
-.home{
-   margin-left: 65%;
-}
+
 hr{
    margin-top: 5%;
    opacity: 0.2;
 }
+
+
+
+   
+
 .text1{
    color: white;
    font-size: 130%;
@@ -41,12 +63,23 @@ h2{
 }
 
 .milieu{
+   display: flex;
+}
+.gauche{
    text-align: center;
    margin-top: 17%;
    width: 35%;
    margin-left: 35%;
 }
 
+
+.droite{
+   margin-top: 17%;
+   margin-left: 20%;
+}
+.rs{
+   margin-left: 40%;
+}
 .btn_1 {
    width: 200px;
    height: 47px;
@@ -66,6 +99,13 @@ h2{
    margin-top: -17%;
    
 }
+
+/*
+.imgRight{
+margin-top: 100%;
+}
+*/
+
 .fleche{
    width: 76px;
    height: auto;
@@ -82,6 +122,11 @@ h2{
    height: auto;
    margin-top: 15%;
    margin-left: 50%;
+}
+
+.flecheBas{
+   margin-left: 50%;
+   padding-top: 17%;
 }
 
 /*deuxieme partie */
@@ -143,6 +188,12 @@ h4{
    transform: scale(1.1);
 }
 
+.nemesis{
+   width: 130px;
+   margin-left: 7%;
+   margin-bottom: -5%;
+}
+
 
 /*troisième partie */
 
@@ -175,7 +226,7 @@ h4{
 
 .contain3{
    background-color: black;
-   margin-top: -5%;
+   margin-top: 10%;
    width: 80%;
    height: auto;
    margin-left: 15%;
@@ -236,14 +287,23 @@ h4{
  }
 
  .picvideo{
-   width:800px;
+   width:900px;
    height: auto;
-   margin-left: 18%;
+   margin-left: 17%;
  }
 
  
  
  /*formulaire */
+
+ .formulaire{
+   background-color: #c4c4c456;
+   padding-bottom: 5%;
+   
+ }
+ .contact{
+   margin-left: 30%;
+ }
 
  .checkbox{
    color: white;
@@ -251,9 +311,75 @@ h4{
 
  .bouton{
    display: flex;
+   margin-left: 3%;
+ }
+ button{
+   background: transparent;
+   border-color: white;
+   width: 110px;
+   color: white;
+   height: 30px;
+ }
+ button:hover{
+   background-color: rgb(197, 200, 248) ;
+ }
+ input{
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid white ;
+   outline: none;
+   padding-bottom: 5px;
+   width: 40em;
  }
 
+ .confirmer{
+   height: 60px;
+   width: 200px;
+   margin-left: 20%;
+   background: linear-gradient(to right,#EDDEBF,#890008);
+   border: none;
+   font-size: 17px;
+ }
+
+ .confirmer:hover{
+   background: linear-gradient(to right,#fae7c0,#c00713);
+ }
  /*footer*/
- .foot{
+
+ .foot1{
    color: white;
+   margin-left: 10px;
+   text-align: center;
+ }
+
+ .guillemet1{
+   margin-top:5% ;
+   margin-left: 18%;
+ }
+ .guillemet2{
+   margin-left: 70%;
+ }
+
+ .iconFoot{
+   display: flex;
+ }
+
+ .pic{
+   width: 30px;
+ }
+ footer{
+   padding-bottom: 12%;
+ }
+ .type{
+   display: flex;
+   margin-left: 25%;
+   margin-top: 17%;
+   font-size: 14px;
+ }
+ .wb{
+   height: 28px;
+   margin-top: 0.7%;
+ }
+ .iconFoot{
+   margin-left: 40%;
  }
