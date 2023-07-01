@@ -2,10 +2,17 @@ p{
     color: white;
  }
  
+ label{
+   color: white;
+   
+ }
  body{
  background-color: black;
  }
  
+ h2{
+   color: white;
+ }
  h1{
     color: white;
     text-align: center;
@@ -59,6 +66,7 @@ p{
  .gauche{
     margin-top: 17%;
     margin-left: 9%;
+    
     
  }
  
@@ -120,7 +128,7 @@ p{
     margin-left: 15%;
 }
 
-.Quiz1{
+.Quiz{
     margin-top: 8%;
     width: 300px;
     height: 65px;
@@ -148,3 +156,371 @@ footer{
   .iconFoot{
     margin-left: 40%;
   }
+
+
+  /*QUIZ UN*/
+
+ 
+  .hommeMystere{
+   display: flex;
+   margin-left: 25%;
+  }
+
+  .batgame3{
+   width: 200px;
+   
+  }
+
+  .chiffre{
+   text-align: center;
+  }
+
+  .Quiz1{
+   margin-top: 8%;
+    width: 300px;
+    height: 65px;
+    margin-left: 40%;
+    font-size: 18px;
+    background: linear-gradient(to right,#c7c2b9,#bd5d03);
+    border: none;
+    color: white;
+  }
+  
+  .Q1{
+   font-size: 22px;
+  }
+
+  .case{
+   width: 120%;
+   height: 40px;
+   background-color: grey;
+   padding-top: 8px;
+   font-size: 20px;
+  }
+  
+ /* FIN QUIZ UN*/
+
+
+
+  /* QUIZ DEUX */
+
+  .batgame4{
+   width: 180px;
+   margin-left: -40%;
+  }
+ /* FIN QUIZ DEUX */
+
+
+
+
+  /* QUIZ TROIS */
+  .batgame4{
+   width: 150px;
+   margin-left: -40%;
+  }
+
+  .hommeMystere1{
+   display: flex;
+   margin-left: 10%;
+  }
+  
+ /* FIN QUIZ TROIS */
+
+
+
+ /* QUIZ QUATRE */
+
+ .hommeMystere2{
+   display: flex;
+  margin-left: 23%;
+ }
+ .batgame6{
+   width: 220px;
+   margin-left: -10%;
+   margin-top: -15%;
+  }
+
+  .case1{
+   width: 150%;
+   height: 40px;
+   background-color: grey;
+   padding-top: 8px;
+   font-size: 20px;
+  }
+  
+ /* FIN QUIZ QUATRE */
+
+
+
+ /* QUIZ CINQ */
+
+ .hommeMystere3{
+   display: flex;
+  margin-left: 19%;
+ }
+ .batgame7{
+   width: 220px;
+   margin-left: -10%;
+   margin-top: 40%;
+  }
+
+  .case1{
+   width: 150%;
+   height: 40px;
+   background-color: grey;
+   padding-top: 8px;
+   font-size: 20px;
+  }
+  
+ /* FIN QUIZ CINQ */
+
+
+
+
+  /* QUIZ SIX */
+
+  .hommeMystere3{
+   display: flex;
+  margin-left: 19%;
+ }
+ .batgame8{
+   width: 195px;
+   margin-left: -20%;
+   margin-top: -30%;
+  }
+
+  .case2{
+   width: 100%;
+   height: 40px;
+   background-color: grey;
+   padding-top: 8px;
+   font-size: 20px;
+  }
+  
+  .batgame9_1{
+   margin-left: 80%;
+   margin-top: 4%;
+  }
+
+  .batgame9{
+ width: 240px;
+ margin-right: 70%;
+ margin-top: -30%;
+ margin-left: 15%;
+  }
+
+  .Quiz2{
+  margin-bottom: 20%;
+   width: 300px;
+   height: 65px;
+   margin-left: 40%;
+   font-size: 18px;
+   background: linear-gradient(to right,#c7c2b9,#bd5d03);
+   border: none;
+   color: white;
+ }
+  
+ /* FIN QUIZ SIX */
+
+
+
+ /* QUIZ SEPT */
+
+ .hommeMystere4{
+   display: flex;
+  margin-left: 17%;
+ }
+ .batgame10{
+   width: 300px;
+   margin-left: -10%;
+  }
+
+  .case3{
+   width: 170%;
+   height: 40px;
+   background-color: grey;
+   padding-top: 8px;
+   font-size: 20px;
+  }
+  
+  
+ /* FIN QUIZ SEPT */
+
+
+ /* QUIZ HUIT */
+
+
+ .batgame11{
+   width: 310px;
+   margin-left: -1%;
+  }
+
+  
+ /* FIN QUIZ HUIT */
+
+
+  /* QUIZ NEUF */
+
+
+  .batgame12{
+   width: 220px;
+   margin-left: -12%;
+   margin-top: -50%;
+  }
+.batgame13-1{
+   width: 200px;
+   margin-left: 20%;
+}
+
+.batgame13{
+   width:180px;
+   margin-left: 7%;
+}
+.Quiz3{
+   
+   width: 300px;
+   height: 65px;
+  
+   font-size: 18px;
+   background: linear-gradient(to right,#c7c2b9,#bd5d03);
+   border: none;
+   color: white;
+}
+  
+ /* FIN QUIZ NEUF */
+
+
+
+ /* QUIZ DIX */
+.hommeMystere5{
+   display: flex;
+  margin-left: 22%;
+}
+
+ .batgame14{
+   width: 160px;
+   margin-left: -60%;
+   margin-top: 50px;
+  }
+.batgame15{
+   width: 200px;
+   margin-left: 150%;
+}
+
+.batgame16{
+   width:170px;
+   margin-bottom: -5%;
+
+}
+.case4{
+   width: 235%;
+   height: 40px;
+   background-color: grey;
+   padding-top: 8px;
+   font-size: 20px;
+}
+
+.Q2{
+   font-size: 22px;
+   margin-bottom: -70%;
+}
+
+.Quiz4{
+  
+   width: 300px;
+   height: 65px;
+   font-size: 18px;
+   background: linear-gradient(to right,#c7c2b9,#bd5d03);
+   border: none;
+   color: white;
+   margin-left: 40%;
+}
+
+  
+ /* FIN QUIZ DIX */
+
+
+
+ /* QUIZ ONZE */
+
+
+ .batgame17{
+   width: 300px;
+  margin-left: -10%;
+  margin-top: 20%;
+  }
+.hommeMystere6{
+   display: flex;
+   margin-left: 17%;
+}
+  
+ /* FIN QUIZ ONZE */
+
+
+ /* QUIZ DOUZE */
+
+
+ .batgame18{
+   width: 240px;
+  margin-left: -20%;
+  margin-top: -30%;
+  }
+
+  
+ /* FIN QUIZ DOUZE */
+
+
+
+ /* QUIZ TREIZE */
+
+
+ .batgame19{
+   width: 320px;
+  margin-left: -7%;
+  margin-top: -30%;
+  }
+.case5{
+   width: 170%;
+   height: 40px;
+   background-color: grey;
+   padding-top: 8px;
+   font-size: 20px;
+}
+  
+ /* FIN QUIZ TREIZE  */
+
+
+
+
+
+ /* QUIZ QUATORZE */
+
+ .hommeMystere7{
+   display: flex;
+   margin-left: 9%;
+}
+
+ /* FIN QUIZ QUATORZE  */
+
+
+
+ /* QUIZ QUINZE */
+
+ .hommeMystere8{
+   display: flex;
+   margin-left: 20%;
+}
+
+
+.batgame21{
+   width: 250px;
+  margin-left: -9%;
+  margin-top: -20%;
+  }
+ /* FIN QUIZ  QUINZE  */
+
+
+
+
+
+
